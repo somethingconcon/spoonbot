@@ -14,5 +14,6 @@ command "heya", fn (speaker) ->
     "#{greeting} #{speaker}" 
 end
 
-command "die", &("No, you die #{&1}!")
-command "quit", &("Haha, after you #{&1}!")
+command "long’s mom", fn(speaker) ->
+    "You said it, #{speaker}"
+end
